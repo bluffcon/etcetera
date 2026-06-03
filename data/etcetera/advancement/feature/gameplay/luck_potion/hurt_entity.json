@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "x": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "effects": {
+                                "luck": {"visible": true}
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "etcetera:feature/gameplay/luck_potion/assist"
+    }
+}

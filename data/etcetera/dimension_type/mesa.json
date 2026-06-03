@@ -1,0 +1,15 @@
+{
+    "ambient_light": 1,
+    "coordinate_scale": 1,
+    "has_ceiling": false,
+    "has_ender_dragon_fight": false,
+    "has_skylight": true,
+    "height": 384,
+    "infiniburn": "#terracotta",
+    "logical_height": 200,
+    "min_y": -64,
+    "monster_spawn_block_light_limit": 0,
+    "monster_spawn_light_level": 0,
+    "default_clock": "overworld",
+    "skybox": "overworld"
+}

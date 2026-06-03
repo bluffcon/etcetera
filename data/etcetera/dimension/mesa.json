@@ -1,0 +1,8 @@
+{
+    "generator": {
+        "type": "noise",
+        "biome_source": {"type": "fixed", "biome": "eroded_badlands"},
+        "settings": "etcetera:mesa"
+    },
+    "type": "overworld"
+}

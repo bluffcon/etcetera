@@ -1,0 +1,12 @@
+{
+    "generator": {
+        "type": "flat",
+        "settings": {
+            "layers": [
+                {"block": "bedrock", "height": 96}
+            ],
+            "biome": "the_void"
+        }
+    },
+    "type": "overworld"
+}
