@@ -1,0 +1,2 @@
+execute unless predicate {"condition":"entity_properties","entity":"this",predicate:{"equipment":{body:{predicates:{"enchantments":[{enchantments:"etcetera:default"}]}}}}} run item modify entity @s armor.body {function:"set_enchantments",enchantments:{"etcetera:default":1},add:1b}
+stopsound @a * entity.horse.armor

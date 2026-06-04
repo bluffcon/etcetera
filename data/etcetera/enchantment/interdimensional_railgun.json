@@ -1,0 +1,37 @@
+{
+    "anvil_cost": 100000,
+    "description": "interdimensional_railgun",
+    "max_cost": {
+        "base": 10000,
+        "per_level_above_first": 10000
+    },
+    "min_cost": {
+        "base": 10000,
+        "per_level_above_first": 10000
+    },
+    "max_level": 1,
+    "supported_items": [],
+    "slots": ["mainhand", "offhand"],
+    "weight": 1,
+    "exclusive_set": "#arbiterlib:all",
+    "effects": {
+        "crossbow_charge_time": {
+            "type": "set", "value": 120
+        },
+        "crossbow_charging_sounds": [
+            {
+                "start": "block.crafter.fail",
+                "end": "block.crafter.fail",
+                "mid": "block.crafter.fail"
+            }
+        ],
+        "ammo_use": [
+            {"effect": {"type": "set","value": 160000}}
+        ],
+        "tick": [
+            {
+                "effect": {"type": "run_function", "function": "etcetera:feature/item/interdimensional_railgun/item/tick_in_hand"}
+            }
+        ]
+    }
+}

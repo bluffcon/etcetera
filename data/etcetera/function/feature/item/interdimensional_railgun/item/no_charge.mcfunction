@@ -1,0 +1,1 @@
+item modify entity @s weapon.mainhand {function:"set_components",components:{"item_model":"arbiterlib:etcetera/interdimensional_railgun_off",repair_cost:10000}}

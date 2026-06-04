@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "x": {
+            "trigger": "shot_crossbow",
+            "conditions": {
+                "item": {"predicates": {"custom_data": {"arbiterlib": {"id": "interdimensional_railgun", "namespace": "etcetera"}}}}
+            }
+        }
+    },
+    "rewards": {
+        "function": "etcetera:feature/item/interdimensional_railgun/use"
+    }
+}

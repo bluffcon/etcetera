@@ -1,0 +1,40 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "crossbow",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "!food": {}, "!consumable": {},
+                                "item_model": "arbiterlib:etcetera/interdimensional_railgun",
+                                "item_name": {"translate": "item.etcetera.interdimensional_railgun"},
+                                "enchantments": {"etcetera:interdimensional_railgun": 1},
+                                "custom_data": {
+                                    "etcetera": "interdimensional_railgun",
+                                    "arbiterlib": {"namespace": "etcetera", "id": "interdimensional_railgun"}
+                                },
+                                "lore": [
+                                    {"translate": "item.etcetera.interdimensional_railgun.description", "color": "gray", "italic": false},
+                                    {"translate": "id.etcetera", "color": "blue", "italic": false}
+                                ],
+                                "max_damage": 33,
+                                "max_stack_size": 1,
+                                "repair_cost": 10000,
+                                "rarity": "epic",
+                                "tooltip_display": {
+                                    "hidden_components": ["enchantments"]
+                                },
+                                "enchantment_glint_override": false
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

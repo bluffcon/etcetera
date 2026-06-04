@@ -1,0 +1,1 @@
+scoreboard players set @s etcetera.interdimensional_railgun.boom 0
