@@ -1,0 +1,1 @@
+execute align xyz run summon item_display ~0.5 ~0.5 ~0.5 {Tags:["etcetera.dimension_connector.goal"]}

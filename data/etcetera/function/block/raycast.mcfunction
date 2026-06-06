@@ -39,7 +39,9 @@ execute anchored eyes positioned ^-0.5 ^ ^4 run summon marker ~ ~ ~ {Tags:["etce
 execute anchored eyes positioned ^-0.5 ^ ^5 run summon marker ~ ~ ~ {Tags:["etcetera.feature.raycast"]}
 execute anchored eyes positioned ^-0.5 ^ ^6 run summon marker ~ ~ ~ {Tags:["etcetera.feature.raycast"]}
 
+
 execute at @e[type=marker,tag=etcetera.feature.raycast,distance=..20] if block ~ ~ ~ furnace{Items:[{id:"minecraft:knowledge_book",Slot:0b,"components": {"minecraft:custom_data": {"etcetera": "rift_radio"}}}]} run function etcetera:block/list/rift_radio/place
 execute at @e[type=marker,tag=etcetera.feature.raycast,distance=..20] if block ~ ~ ~ furnace{Items:[{id:"minecraft:knowledge_book",Slot:0b,"components": {"minecraft:custom_data": {"etcetera": "interdimensional_workstation"}}}]} run function etcetera:block/list/interdimensional_workstation/place
+execute at @e[type=marker,tag=etcetera.feature.raycast,distance=..20,predicate=etcetera:feature/block/furnace,limit=1] if block ~ ~ ~ furnace{Items:[{id:"minecraft:knowledge_book",Slot:0b,"components": {"minecraft:custom_data": {"etcetera": "spacetime_anchor"}}}]} run function etcetera:block/list/spacetime_anchor/place
 
 kill @e[type=marker,tag=etcetera.feature.raycast,distance=..20]

@@ -1,0 +1,36 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "map",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "!food": {}, "!consumable": {},
+                                "item_model": "minecraft:filled_map",
+                                "item_name": {"translate": "item.etcetera.dimension_explorer_map"},
+                                "custom_data": {
+                                    "etcetera": "dimension_explorer_map",
+                                    "arbiterlib": {"namespace": "etcetera", "id": "dimension_explorer_map"}
+                                },
+                                "lore": [
+                                    {"translate": "item.etcetera.dimension_explorer_map.description", "color": "gray", "italic": false},
+                                    
+                                    {"translate": "ui.arbiterlib.crafting_conditions", "color": "red", "italic": false, "bold": true},
+                                    {"translate": "ui.etcetera.dimension_explorer_map.condition1", "color": "red", "italic": false},
+
+                                    {"translate": "id.etcetera", "color": "blue", "italic": false}
+                                ],
+                                "max_stack_size": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

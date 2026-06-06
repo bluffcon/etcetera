@@ -1,0 +1,12 @@
+{
+    "generator": {
+        "type": "noise",
+        "biome_source": {
+            "type": "fixed",
+            "biome":"etcetera:cherry_grove"
+        },
+        "settings": "etcetera:likeness"
+    },
+    "type": "overworld"
+}
+

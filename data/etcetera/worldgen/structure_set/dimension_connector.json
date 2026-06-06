@@ -1,0 +1,16 @@
+{
+  "structures": [
+    {
+      "structure": "etcetera:dimension_connector",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 48,
+    "separation": 32,
+    "salt": 676767,
+    
+    "frequency": 0.5
+  }
+}

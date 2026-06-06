@@ -1,0 +1,108 @@
+{
+    "criteria": {
+        "x": {
+            "trigger": "placed_block",
+            "conditions": {
+                "location": [
+                    {"condition": "all_of", "terms": [
+                        {
+                            "condition": "location_check",
+                            "predicate": {
+                                "can_see_sky": true
+                            }
+                        },
+                        {
+                            "condition": "block_state_property",
+                            "block": "iron_bars",
+                            "properties": {}
+                        },
+                        {
+                            "condition": "location_check",
+                            "predicate": {
+                                "block": {"blocks": ["iron_bars"]}
+                            },
+                            "offsetY": -1
+                        },
+                        {
+                            "condition": "location_check",
+                            "predicate": {
+                                "block": {"blocks": ["iron_bars"]}
+                            },
+                            "offsetY": -2
+                        },
+                        {
+                            "condition": "location_check",
+                            "predicate": {
+                                "block": {"blocks": ["iron_bars"]}
+                            },
+                            "offsetY": -3
+                        },
+                        {
+                            "condition": "location_check",
+                            "predicate": {
+                                "block": {"blocks": ["iron_bars"]}
+                            },
+                            "offsetY": -4
+                        },
+                        {
+                            "condition": "location_check",
+                            "predicate": {
+                                "block": {"blocks": ["iron_bars"]}
+                            },
+                            "offsetY": -5
+                        },
+                        {
+                            "condition": "location_check",
+                            "predicate": {
+                                "block": {"blocks": ["iron_bars"]}
+                            },
+                            "offsetY": -6
+                        },
+                        {
+                            "condition": "location_check",
+                            "predicate": {
+                                "block": {"blocks": ["iron_block"]}
+                            },
+                            "offsetY": -7
+                        },
+                        {
+                            "condition": "location_check",
+                            "predicate": {
+                                "block": {"blocks": ["iron_bars"]}
+                            },
+                            "offsetY": -1,
+                            "offsetZ": 1
+                        },
+                        {
+                            "condition": "location_check",
+                            "predicate": {
+                                "block": {"blocks": ["iron_bars"]}
+                            },
+                            "offsetY": -1,
+                            "offsetZ": -1
+                        },
+                        {
+                            "condition": "location_check",
+                            "predicate": {
+                                "block": {"blocks": ["iron_bars"]}
+                            },
+                            "offsetY": -3,
+                            "offsetZ": 1
+                        },
+                        {
+                            "condition": "location_check",
+                            "predicate": {
+                                "block": {"blocks": ["iron_bars"]}
+                            },
+                            "offsetY": -3,
+                            "offsetZ": -1
+                        }
+                    ]}
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "etcetera:feature/structure/communication_antenna/place/z/place_bars"
+    }
+}

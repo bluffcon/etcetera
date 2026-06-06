@@ -1,0 +1,2 @@
+summon tnt ~ ~ ~ {block_state:{Name:bedrock},NoGravity:1b,Fire:1b,Tags:["etcetera.feature.interdimensional_railgun.ammo"],fuse:20s,Glowing:1b,explosion_power:15}
+scoreboard players set @s etcetera.interdimensional_railgun.location 1

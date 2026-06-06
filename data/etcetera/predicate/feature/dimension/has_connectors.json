@@ -1,0 +1,11 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "location_check",
+            "predicate": {
+                "dimension": "etcetera:likeness"
+            }
+        }
+    ]
+}

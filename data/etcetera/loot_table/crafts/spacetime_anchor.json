@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "furnace",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "container": [
+                                    {
+                                        "item": {"id": "knowledge_book","components": {"custom_data": {
+                                            "etcetera": "spacetime_anchor"
+                                        }}},
+                                        "slot": 0
+                                    }
+                                ],
+                                "item_model": "acacia_planks"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

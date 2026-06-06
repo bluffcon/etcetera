@@ -1,0 +1,39 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "map",
+                    "functions": [
+                        {
+                            "function": "minecraft:exploration_map",
+                            "destination": "etcetera:dimension_explorer_map",
+                            "decoration": "target_x",
+                            "skip_existing_chunks": true,
+                            "search_radius": 128,
+                            "zoom": 3
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "!food": {}, "!consumable": {},
+                                "item_name": {"translate": "item.etcetera.dimension_explorer_map"},
+                                "custom_data": {
+                                    "etcetera": "dimension_explorer_map",
+                                    "arbiterlib": {"namespace": "etcetera", "id": "dimension_explorer_map"}
+                                },
+                                "lore": [
+                                    {"translate": "item.etcetera.dimension_explorer_map.description", "color": "gray", "italic": false},
+                                    {"translate": "id.etcetera", "color": "blue", "italic": false}
+                                ],
+                                "max_stack_size": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
