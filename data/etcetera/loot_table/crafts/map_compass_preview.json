@@ -1,0 +1,37 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "clock",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "!food": {}, "!consumable": {},
+                                "item_model": "compass",
+                                "custom_name": {"translate": "item.etcetera.north_compass","italic": false},
+                                "custom_data": {
+                                    "arbiterlib": {"namespace": "etcetera", "id": "north_compass"}
+                                },
+                                "max_stack_size": 1,
+                                "enchantment_glint_override": false,
+                                "lore": [
+                                    {
+                                        "translate": "item.etcetera.north_compass.description",
+                                        "italic": false,
+                                        "color": "gray"
+                                    },
+                                    {"translate": "id.etcetera", "color": "blue", "italic": false}
+                                ]
+                            }
+                        }
+                    
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "generator": {
+        "type": "noise",
+        "biome_source": {
+            "type": "fixed",
+            "biome":"etcetera:warm_gulf"
+        },
+        "settings": "etcetera:gulf"
+    },
+    "type": "etcetera:gulf"
+}
+

@@ -25,7 +25,8 @@
 
                                     {"translate": "id.etcetera", "color": "blue", "italic": false}
                                 ],
-                                "max_stack_size": 1
+                                "max_stack_size": 1,
+                                "enchantment_glint_override": true
                             }
                         }
                     ]

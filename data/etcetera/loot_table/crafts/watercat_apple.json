@@ -1,0 +1,61 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "apple",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "food": {
+                                    "nutrition": 2,
+                                    "saturation": 0.5,
+                                    "can_always_eat": true
+                                },
+                                "consumable": {
+                                    "animation": "drink",
+                                    "sound": "entity.generic.drink",
+                                    "consume_seconds": 1.2,
+                                    "has_consume_particles": true,
+                                    "on_consume_effects": [
+                                        {
+                                            "type": "apply_effects",
+                                            "effects": [
+                                                {
+                                                    "id": "water_breathing",
+                                                    "amplifier": 0,
+                                                    "duration": 100,
+                                                    "ambient": true,
+                                                    "show_icon": true,
+                                                    "show_particles": true
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                "item_model": "arbiterlib:etcetera/watercat_apple",
+                                "custom_name": {"translate": "item.etcetera.watercat_apple","italic": false},
+                                "custom_data": {
+                                    "arbiterlib": {"namespace": "etcetera", "id": "watercat_apple"}
+                                },
+                                "max_stack_size": 16,
+                                "lore": [
+                                    {
+                                        "translate": "item.etcetera.watercat_apple.description",
+                                        "italic": false,
+                                        "color": "gray"
+                                    },
+                                    {"translate": "id.etcetera", "color": "blue", "italic": false}
+                                ]
+                            }
+                        }
+                    
+                    ]
+                }
+            ]
+        }
+    ]
+}

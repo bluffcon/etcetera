@@ -1,0 +1,22 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "location_check",
+            "predicate": {
+                "fluid": {
+                    "fluids": "minecraft:empty"
+                }
+            },
+            "offsetY": 1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "position": {
+                    "y": {"min": 190}
+                }
+            }
+        }
+    ]
+}

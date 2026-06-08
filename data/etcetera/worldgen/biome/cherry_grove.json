@@ -9,7 +9,15 @@
     },
     "minecraft:visual/sky_color": "#7bb4ff",
     "minecraft:visual/water_fog_color": "#5db7ef",
-    "visual/ambient_particles": [{"particle": {"type": "cherry_leaves"}, "probability": 0.01}]
+    "visual/ambient_particles": [{"particle": {"type": "cherry_leaves"}, "probability": 0.01}],
+    "audio/ambient_sounds": {
+      "additions": {
+        "sound": {
+          "sound_id": "arbiterlib:ambient.etcetera.likeness"
+        },
+        "tick_chance": 0.0003
+      }
+    }
   },
   "carvers": [
     "minecraft:cave"

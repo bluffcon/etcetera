@@ -1,0 +1,1 @@
+$execute if items entity @s weapon.mainhand compass[custom_data~{arbiterlib:{id:"north_compass",namespace:"etcetera"}}] run item modify entity @s weapon.mainhand {function:"set_components", components:{"lodestone_tracker": {"target":{dimension:"$(dimension)",pos:[0,0,-25000000]},tracked:false}}}

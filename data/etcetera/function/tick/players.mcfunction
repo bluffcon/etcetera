@@ -1,10 +1,9 @@
-execute if score @s etcetera.vegeterian matches 1.. if items entity @s weapon.* #meat run title @s actionbar [{translate:"ui.etcetera.meat_warning",color:red}]
-
-execute at @s if dimension etcetera:likeness as @n[type=item_display,tag=etcetera.dimension_connector.goal,distance=..100] at @s run function etcetera:feature/structure/dimension_connector/place
+execute if score @s etcetera.vegeterian matches 1.. if items entity @s weapon.* #etcetera:meat run title @s actionbar [{translate:"ui.etcetera.meat_warning",color:red}]
 
 execute at @s if dimension etcetera:likeness run function etcetera:tick/dimension/likeness
 execute at @s if dimension minecraft:overworld run function etcetera:tick/dimension/overworld
 execute at @s if dimension etcetera:builders_dimension run function etcetera:tick/dimension/builders_dimension
+execute at @s if dimension etcetera:gulf run function etcetera:tick/dimension/gulf
 
 execute as @e[tag=etcetera.feature.communication_antenna,distance=..40,type=marker] at @s run function etcetera:feature/structure/communication_antenna/tick/main
 execute as @e[type=falling_block,tag=etcetera.feature.interdimensional_railgun.blocks,distance=..50] at @s run function etcetera:feature/item/interdimensional_railgun/block/tick

@@ -4,7 +4,7 @@
             "trigger": "consume_item",
             "conditions": {
                 "item": {
-                    "items": "#meat"                    
+                    "items": "#etcetera:meat"                    
                 },
                 "player": [
                     {

@@ -15,3 +15,4 @@ schedule function etcetera:feature/item/interdimensional_railgun/tntick 10t appe
 schedule function etcetera:feature/item/interdimensional_railgun/tntick 12t append
 schedule function etcetera:feature/item/interdimensional_railgun/tntick 14t append
 schedule function etcetera:feature/item/interdimensional_railgun/tntick 16t append
+time rate 600
