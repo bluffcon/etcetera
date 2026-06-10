@@ -1,0 +1,46 @@
+{
+    "type": "block",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "poisonous_potato",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "!food":{},"!consumable":{},
+                                "item_model": "minecraft:amethyst_shard",
+                                "item_name": {"translate": "item.etcetera.resonated_amethyst","italic": false},
+                                "custom_data": {
+                                    "arbiterlib": {"namespace": "etcetera", "id": "resonated_amethyst"}
+                                },
+                                "max_stack_size": 64,
+                                "enchantment_glint_override": true,
+                                "rarity": "uncommon",
+                                "lore": [
+                                    {
+                                        "translate": "item.etcetera.resonated_amethyst.description",
+                                        "italic": false,
+                                        "color": "gray"
+                                    },
+                                    {"translate": "id.etcetera", "color": "blue", "italic": false}
+                                ]
+                            }
+                        },
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 4,
+                                "type": "uniform"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

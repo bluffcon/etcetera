@@ -1,0 +1,15 @@
+{
+    "type": "block_interact",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "etcetera:crafts/watercat_apple",
+                    "weight": 20
+                }
+            ]
+        }
+    ]
+}

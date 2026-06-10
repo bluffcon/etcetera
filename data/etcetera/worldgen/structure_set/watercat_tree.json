@@ -1,16 +1,16 @@
 {
     "structures": [
         {
-            "structure": "etcetera:watercat_tree1",
+            "structure": "etcetera:watercat_tree",
             "weight": 1
         }
     ],
     "placement": {
         "type": "minecraft:random_spread",
-        "spacing": 8,
-        "separation": 4,
+        "spacing": 6,
+        "separation": 3,
         "salt": 123456767,
         
-        "frequency": 0.5
+        "frequency": 0.85
     }
 }

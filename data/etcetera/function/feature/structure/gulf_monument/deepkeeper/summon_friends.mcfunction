@@ -1,0 +1,8 @@
+execute if predicate etcetera:random/040 run function etcetera:feature/structure/gulf_monument/deepkeeper/heal
+
+playsound entity.zombie.converted_to_drowned hostile @a ~ ~ ~ 2 1
+summon zombie_nautilus ~ ~ ~ {Tags:["etcetera.entity.deepkeeper"],attributes:[{base:5,id:max_health},{base:1,id:movement_speed},{base:0.4,id:attack_knockback}],DeathLootTable:"etcetera:crafts/watercat_apple",Glowing:1b}
+summon zombie_nautilus ~ ~ ~ {Tags:["etcetera.entity.deepkeeper"],attributes:[{base:5,id:max_health},{base:1,id:movement_speed},{base:0.4,id:attack_knockback}],DeathLootTable:"etcetera:crafts/watercat_apple",Glowing:1b}
+execute if predicate etcetera:random/050 run summon zombie_nautilus ~ ~ ~ {Tags:["etcetera.entity.deepkeeper"],attributes:[{base:5,id:max_health},{base:1,id:movement_speed},{base:0.4,id:attack_knockback}],DeathLootTable:"etcetera:crafts/watercat_apple",Glowing:1b}
+execute if predicate etcetera:random/050 run summon zombie_nautilus ~ ~ ~ {Tags:["etcetera.entity.deepkeeper"],attributes:[{base:5,id:max_health},{base:1,id:movement_speed},{base:0.4,id:attack_knockback}],DeathLootTable:"etcetera:crafts/watercat_apple",Glowing:1b}
+execute if predicate etcetera:random/050 run summon zombie_nautilus ~ ~ ~ {Tags:["etcetera.entity.deepkeeper"],attributes:[{base:5,id:max_health},{base:1,id:movement_speed},{base:0.4,id:attack_knockback}],DeathLootTable:"etcetera:crafts/watercat_apple",Glowing:1b}

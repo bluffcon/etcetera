@@ -1,0 +1,826 @@
+{
+    "criteria": {
+        "x": {
+            "trigger": "placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": { "blocks": "#etcetera:amethyst_exposure_chamber/copper_trapdoor_blocks" }
+                        }
+                    },
+                    {
+                        "condition": "all_of",
+                        "terms": [
+                            {
+                            "condition": "location_check",
+                            "offsetY": -1,
+                            "offsetX": -1,
+                            "offsetZ": -2,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/cut_copper_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -1,
+                            "offsetX": 0,
+                            "offsetZ": -2,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/regular_copper_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -1,
+                            "offsetX": 1,
+                            "offsetZ": -2,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/cut_copper_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -1,
+                            "offsetX": -2,
+                            "offsetZ": -1,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/cut_copper_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -1,
+                            "offsetX": -1,
+                            "offsetZ": -1,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/tinted_glass_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -1,
+                            "offsetX": 0,
+                            "offsetZ": -1,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/tinted_glass_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -1,
+                            "offsetX": 1,
+                            "offsetZ": -1,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/tinted_glass_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -1,
+                            "offsetX": 2,
+                            "offsetZ": -1,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/cut_copper_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -1,
+                            "offsetX": -2,
+                            "offsetZ": 0,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/regular_copper_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -1,
+                            "offsetX": -1,
+                            "offsetZ": 0,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/tinted_glass_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -1,
+                            "offsetX": 1,
+                            "offsetZ": 0,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/tinted_glass_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -1,
+                            "offsetX": 2,
+                            "offsetZ": 0,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/regular_copper_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -1,
+                            "offsetX": -2,
+                            "offsetZ": 1,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/cut_copper_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -1,
+                            "offsetX": -1,
+                            "offsetZ": 1,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/tinted_glass_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -1,
+                            "offsetX": 0,
+                            "offsetZ": 1,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/tinted_glass_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -1,
+                            "offsetX": 1,
+                            "offsetZ": 1,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/tinted_glass_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -1,
+                            "offsetX": 2,
+                            "offsetZ": 1,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/cut_copper_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -1,
+                            "offsetX": -1,
+                            "offsetZ": 2,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/cut_copper_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -1,
+                            "offsetX": 0,
+                            "offsetZ": 2,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/regular_copper_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -1,
+                            "offsetX": 1,
+                            "offsetZ": 2,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/cut_copper_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -2,
+                            "offsetX": -2,
+                            "offsetZ": -2,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/cut_copper_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -2,
+                            "offsetX": -2,
+                            "offsetZ": -1,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/tinted_glass_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -2,
+                            "offsetX": -2,
+                            "offsetZ": 0,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/tinted_glass_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -2,
+                            "offsetX": -2,
+                            "offsetZ": 1,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/tinted_glass_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -2,
+                            "offsetX": -2,
+                            "offsetZ": 2,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/cut_copper_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -2,
+                            "offsetX": -1,
+                            "offsetZ": -2,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/tinted_glass_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -2,
+                            "offsetX": -1,
+                            "offsetZ": 2,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/tinted_glass_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -2,
+                            "offsetX": 0,
+                            "offsetZ": -2,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/tinted_glass_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -2,
+                            "offsetX": 0,
+                            "offsetZ": 2,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/tinted_glass_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -2,
+                            "offsetX": 1,
+                            "offsetZ": -2,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/tinted_glass_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -2,
+                            "offsetX": 1,
+                            "offsetZ": 2,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/tinted_glass_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -2,
+                            "offsetX": 2,
+                            "offsetZ": -2,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/cut_copper_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -2,
+                            "offsetX": 2,
+                            "offsetZ": -1,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/tinted_glass_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -2,
+                            "offsetX": 2,
+                            "offsetZ": 0,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/tinted_glass_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -2,
+                            "offsetX": 2,
+                            "offsetZ": 1,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/tinted_glass_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -2,
+                            "offsetX": 2,
+                            "offsetZ": 2,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/cut_copper_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -3,
+                            "offsetX": -2,
+                            "offsetZ": -2,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/regular_copper_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -3,
+                            "offsetX": -2,
+                            "offsetZ": -1,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/tinted_glass_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -3,
+                            "offsetX": -2,
+                            "offsetZ": 0,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/tinted_glass_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -3,
+                            "offsetX": -2,
+                            "offsetZ": 1,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/tinted_glass_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -3,
+                            "offsetX": -2,
+                            "offsetZ": 2,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/regular_copper_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -3,
+                            "offsetX": -1,
+                            "offsetZ": -2,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/tinted_glass_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -3,
+                            "offsetX": -1,
+                            "offsetZ": 2,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/tinted_glass_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -3,
+                            "offsetX": 0,
+                            "offsetZ": -2,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/tinted_glass_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -3,
+                            "offsetX": 0,
+                            "offsetZ": 2,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/tinted_glass_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -3,
+                            "offsetX": 1,
+                            "offsetZ": -2,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/tinted_glass_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -3,
+                            "offsetX": 1,
+                            "offsetZ": 2,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/tinted_glass_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -3,
+                            "offsetX": 2,
+                            "offsetZ": -2,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/regular_copper_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -3,
+                            "offsetX": 2,
+                            "offsetZ": -1,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/tinted_glass_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -3,
+                            "offsetX": 2,
+                            "offsetZ": 0,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/tinted_glass_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -3,
+                            "offsetX": 2,
+                            "offsetZ": 1,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/tinted_glass_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -3,
+                            "offsetX": 2,
+                            "offsetZ": 2,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/regular_copper_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -4,
+                            "offsetX": -2,
+                            "offsetZ": -2,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/cut_copper_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -4,
+                            "offsetX": -2,
+                            "offsetZ": -1,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/tinted_glass_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -4,
+                            "offsetX": -2,
+                            "offsetZ": 0,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/tinted_glass_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -4,
+                            "offsetX": -2,
+                            "offsetZ": 1,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/tinted_glass_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -4,
+                            "offsetX": -2,
+                            "offsetZ": 2,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/cut_copper_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -4,
+                            "offsetX": -1,
+                            "offsetZ": -2,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/tinted_glass_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -4,
+                            "offsetX": -1,
+                            "offsetZ": 2,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/tinted_glass_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -4,
+                            "offsetX": 0,
+                            "offsetZ": -2,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/tinted_glass_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -4,
+                            "offsetX": 0,
+                            "offsetZ": 2,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/tinted_glass_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -4,
+                            "offsetX": 1,
+                            "offsetZ": -2,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/tinted_glass_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -4,
+                            "offsetX": 1,
+                            "offsetZ": 2,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/tinted_glass_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -4,
+                            "offsetX": 2,
+                            "offsetZ": -2,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/cut_copper_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -4,
+                            "offsetX": 2,
+                            "offsetZ": -1,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/tinted_glass_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -4,
+                            "offsetX": 2,
+                            "offsetZ": 0,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/tinted_glass_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -4,
+                            "offsetX": 2,
+                            "offsetZ": 1,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/tinted_glass_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -4,
+                            "offsetX": 2,
+                            "offsetZ": 2,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/cut_copper_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -5,
+                            "offsetX": -1,
+                            "offsetZ": -2,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/cut_copper_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -5,
+                            "offsetX": 0,
+                            "offsetZ": -2,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/regular_copper_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -5,
+                            "offsetX": 1,
+                            "offsetZ": -2,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/cut_copper_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -5,
+                            "offsetX": -2,
+                            "offsetZ": -1,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/cut_copper_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -5,
+                            "offsetX": -1,
+                            "offsetZ": -1,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/tinted_glass_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -5,
+                            "offsetX": 0,
+                            "offsetZ": -1,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/tinted_glass_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -5,
+                            "offsetX": 1,
+                            "offsetZ": -1,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/tinted_glass_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -5,
+                            "offsetX": 2,
+                            "offsetZ": -1,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/cut_copper_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -5,
+                            "offsetX": -2,
+                            "offsetZ": 0,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/regular_copper_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -5,
+                            "offsetX": -1,
+                            "offsetZ": 0,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/tinted_glass_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -5,
+                            "offsetX": 0,
+                            "offsetZ": 0,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/tinted_glass_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -5,
+                            "offsetX": 1,
+                            "offsetZ": 0,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/tinted_glass_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -5,
+                            "offsetX": 2,
+                            "offsetZ": 0,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/regular_copper_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -5,
+                            "offsetX": -2,
+                            "offsetZ": 1,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/cut_copper_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -5,
+                            "offsetX": -1,
+                            "offsetZ": 1,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/tinted_glass_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -5,
+                            "offsetX": 0,
+                            "offsetZ": 1,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/tinted_glass_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -5,
+                            "offsetX": 1,
+                            "offsetZ": 1,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/tinted_glass_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -5,
+                            "offsetX": 2,
+                            "offsetZ": 1,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/cut_copper_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -5,
+                            "offsetX": -1,
+                            "offsetZ": 2,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/cut_copper_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -5,
+                            "offsetX": 0,
+                            "offsetZ": 2,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/regular_copper_blocks" }
+                            }
+                            },
+                            {
+                            "condition": "location_check",
+                            "offsetY": -5,
+                            "offsetX": 1,
+                            "offsetZ": 2,
+                            "predicate": {
+                                "block": { "blocks": "#etcetera:amethyst_exposure_chamber/cut_copper_blocks" }
+                            }
+                            }
+                        ]
+                        }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "etcetera:feature/structure/amethyst_exposure_chamber/place"
+    }
+}

@@ -1,0 +1,9 @@
+execute positioned ~ ~ ~4 run summon marker ~ ~ ~ {Tags:["etcetera.feature.raycast"]}
+execute positioned ~ ~ ~3 run summon marker ~ ~ ~ {Tags:["etcetera.feature.raycast"]}
+execute positioned ~ ~ ~2 run summon marker ~ ~ ~ {Tags:["etcetera.feature.raycast"]}
+execute positioned ~ ~ ~1 run summon marker ~ ~ ~ {Tags:["etcetera.feature.raycast"]}
+execute positioned ~ ~ ~ run summon marker ~ ~ ~ {Tags:["etcetera.feature.raycast"]}
+execute positioned ~ ~ ~-1 run summon marker ~ ~ ~ {Tags:["etcetera.feature.raycast"]}
+execute positioned ~ ~ ~-2 run summon marker ~ ~ ~ {Tags:["etcetera.feature.raycast"]}
+execute positioned ~ ~ ~-3 run summon marker ~ ~ ~ {Tags:["etcetera.feature.raycast"]}
+execute positioned ~ ~ ~-4 run summon marker ~ ~ ~ {Tags:["etcetera.feature.raycast"]}

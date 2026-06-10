@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "x": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "drowned",
+                    "nbt": {
+                        "data": {
+                            "etcetera": {
+                                "boss": "deepkeeper"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "etcetera:feature/structure/gulf_monument/deepkeeper/attacked"
+    }
+}

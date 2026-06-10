@@ -1,0 +1,37 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "poisonous_potato",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "!food":{},"!consumable":{},
+                                "item_model": "arbiterlib:etcetera/dimension/gulf_power",
+                                "rarity":"rare",
+                                "item_name": {"translate": "item.etcetera.power.gulf","italic": false},
+                                "custom_data": {
+                                    "arbiterlib": {"namespace": "etcetera", "etcetera": "gulf_power", "id": "gulf_power"}
+                                },
+                                "max_stack_size": 64,
+                                "lore": [
+                                    {
+                                        "translate": "item.etcetera.power.gulf.description",
+                                        "italic": false,
+                                        "color": "yellow"
+                                    },
+                                    {"translate": "id.etcetera", "color": "blue", "italic": false}
+                                ],
+                                "enchantment_glint_override": true
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

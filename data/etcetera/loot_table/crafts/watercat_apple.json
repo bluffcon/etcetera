@@ -37,11 +37,11 @@
                                     ]
                                 },
                                 "item_model": "arbiterlib:etcetera/watercat_apple",
-                                "custom_name": {"translate": "item.etcetera.watercat_apple","italic": false},
+                                "item_name": {"translate": "item.etcetera.watercat_apple","italic": false},
                                 "custom_data": {
                                     "arbiterlib": {"namespace": "etcetera", "id": "watercat_apple"}
                                 },
-                                "max_stack_size": 16,
+                                "max_stack_size": 32,
                                 "lore": [
                                     {
                                         "translate": "item.etcetera.watercat_apple.description",

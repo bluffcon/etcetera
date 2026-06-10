@@ -1,0 +1,87 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "poisonous_potato",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "food": {
+                                    "nutrition": 6,
+                                    "saturation": 3,
+                                    "can_always_eat": true
+                                },
+                                "consumable": {
+                                    "animation": "drink",
+                                    "sound": "entity.generic.drink",
+                                    "has_consume_particles": true,
+                                    "on_consume_effects": [
+                                        {
+                                            "type": "apply_effects",
+                                            "effects": [
+                                                {
+                                                    "id": "water_breathing",
+                                                    "amplifier": 0,
+                                                    "duration": 600,
+                                                    "ambient": true,
+                                                    "show_icon": true,
+                                                    "show_particles": true
+                                                },
+                                                {
+                                                    "id": "night_vision",
+                                                    "amplifier": 0,
+                                                    "duration": 1000,
+                                                    "ambient": true,
+                                                    "show_icon": true,
+                                                    "show_particles": true
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                "item_model": "arbiterlib:etcetera/watercat_stock",
+                                "item_name": {"translate": "item.etcetera.watercat_stock","italic": false},
+                                "custom_data": {
+                                    "arbiterlib": {"namespace": "etcetera", "id": "watercat_stock"}
+                                },
+                                "max_stack_size": 16,
+                                "lore": [
+                                    {
+                                        "translate": "item.etcetera.watercat_stock.description",
+                                        "italic": false,
+                                        "color": "gray"
+                                    },
+                                    {"translate": "id.etcetera", "color": "blue", "italic": false}
+                                ],
+                                "use_remainder": {
+                                    "id": "poisonous_potato",
+                                    "components": {
+                                        "!food":{},"!consumable":{},
+                                        "item_model": "arbiterlib:etcetera/turtle_bowl",
+                                        "item_name": {"translate": "item.etcetera.turtle_bowl","italic": false},
+                                        "custom_data": {
+                                            "arbiterlib": {"namespace": "etcetera", "id": "turtle_bowl"}
+                                        },
+                                        "max_stack_size": 64,
+                                        "lore": [
+                                            {
+                                                "translate": "item.etcetera.turtle_bowl.description",
+                                                "italic": false,
+                                                "color": "gray"
+                                            },
+                                            {"translate": "id.etcetera", "color": "blue", "italic": false}
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

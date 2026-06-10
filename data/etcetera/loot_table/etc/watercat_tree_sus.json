@@ -1,0 +1,30 @@
+{
+    "type": "block_interact",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "etcetera:crafts/watercat_apple",
+                    "weight": 20
+                },
+                {
+                    "type": "loot_table",
+                    "value": "gameplay/fishing/junk",
+                    "weight": 40
+                },
+                {
+                    "type": "loot_table",
+                    "value": "gameplay/turtle_grow",
+                    "weight": 10
+                },
+                {
+                    "type": "loot_table",
+                    "value": "etcetera:crafts/waterpie_cat",
+                    "weight": 3
+                }
+            ]
+        }
+    ]
+}

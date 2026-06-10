@@ -1,0 +1,9 @@
+execute positioned ~4 ~ ~ run function etcetera:block/raycast_cube_strip
+execute positioned ~3 ~ ~ run function etcetera:block/raycast_cube_strip
+execute positioned ~2 ~ ~ run function etcetera:block/raycast_cube_strip
+execute positioned ~1 ~ ~ run function etcetera:block/raycast_cube_strip
+execute positioned ~ ~ ~ run function etcetera:block/raycast_cube_strip
+execute positioned ~-1 ~ ~ run function etcetera:block/raycast_cube_strip
+execute positioned ~-2 ~ ~ run function etcetera:block/raycast_cube_strip
+execute positioned ~-3 ~ ~ run function etcetera:block/raycast_cube_strip
+execute positioned ~-4 ~ ~ run function etcetera:block/raycast_cube_strip

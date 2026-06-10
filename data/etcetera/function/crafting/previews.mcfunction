@@ -28,3 +28,17 @@ unless items block ~ ~ ~ container.21 * \
 \
 run return run function arbiterlib:craft/workbench/craft/found {namespace:"etcetera",loottable:"map_compass_preview",rarity:"common",item:"map",max_stack:1}
 
+execute \
+if items block ~ ~ ~ container.1 *[custom_data~{arbiterlib:{id:"salt"}}] \
+if items block ~ ~ ~ container.2 #fishes \
+if items block ~ ~ ~ container.3 *[custom_data~{arbiterlib:{id:"salt"}}] \
+\
+if items block ~ ~ ~ container.10 *[custom_data~{arbiterlib:{id:"watercat_apple"}}] \
+if items block ~ ~ ~ container.11 *[custom_data~{arbiterlib:{id:"watercat_apple"}}] \
+if items block ~ ~ ~ container.12 *[custom_data~{arbiterlib:{id:"watercat_apple"}}] \
+\
+unless items block ~ ~ ~ container.19 * \
+if items block ~ ~ ~ container.20 *[custom_data~{arbiterlib:{id:"turtle_bowl"}}] \
+unless items block ~ ~ ~ container.21 * \
+\
+run return run function arbiterlib:craft/workbench/craft/found {namespace:"etcetera",loottable:"watercat_stock",rarity:"common",item:"poisonous_potato",max_stack:8}

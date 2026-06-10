@@ -1,0 +1,13 @@
+{
+    "values": [
+        "copper_block",
+        "waxed_copper_block",
+        "weathered_copper",
+        "waxed_weathered_copper",
+        "exposed_copper",
+        "waxed_exposed_copper",
+        "oxidized_copper",
+        "waxed_oxidized_copper",
+        "#etcetera:amethyst_exposure_chamber/copper_bulbs"
+    ]
+}

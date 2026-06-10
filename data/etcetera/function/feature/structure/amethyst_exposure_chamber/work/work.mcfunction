@@ -1,0 +1,29 @@
+execute if block ~-1 ~-2 ~-1 #etcetera:amethyst_exposure_chamber/amethyst if predicate etcetera:random/010 positioned ~-1 ~-2 ~-1 run return run function etcetera:feature/structure/amethyst_exposure_chamber/work/place
+execute if block ~0 ~-2 ~-1 #etcetera:amethyst_exposure_chamber/amethyst if predicate etcetera:random/010 positioned ~0 ~-2 ~-1 run return run function etcetera:feature/structure/amethyst_exposure_chamber/work/place
+execute if block ~1 ~-2 ~-1 #etcetera:amethyst_exposure_chamber/amethyst if predicate etcetera:random/010 positioned ~1 ~-2 ~-1 run return run function etcetera:feature/structure/amethyst_exposure_chamber/work/place
+execute if block ~-1 ~-2 ~0 #etcetera:amethyst_exposure_chamber/amethyst if predicate etcetera:random/010 positioned ~-1 ~-2 ~0 run return run function etcetera:feature/structure/amethyst_exposure_chamber/work/place
+execute if block ~0 ~-2 ~0 #etcetera:amethyst_exposure_chamber/amethyst if predicate etcetera:random/010 positioned ~0 ~-2 ~0 run return run function etcetera:feature/structure/amethyst_exposure_chamber/work/place
+execute if block ~1 ~-2 ~0 #etcetera:amethyst_exposure_chamber/amethyst if predicate etcetera:random/010 positioned ~1 ~-2 ~0 run return run function etcetera:feature/structure/amethyst_exposure_chamber/work/place
+execute if block ~-1 ~-2 ~1 #etcetera:amethyst_exposure_chamber/amethyst if predicate etcetera:random/010 positioned ~-1 ~-2 ~1 run return run function etcetera:feature/structure/amethyst_exposure_chamber/work/place
+execute if block ~0 ~-2 ~1 #etcetera:amethyst_exposure_chamber/amethyst if predicate etcetera:random/010 positioned ~0 ~-2 ~1 run return run function etcetera:feature/structure/amethyst_exposure_chamber/work/place
+execute if block ~1 ~-2 ~1 #etcetera:amethyst_exposure_chamber/amethyst if predicate etcetera:random/010 positioned ~1 ~-2 ~1 run return run function etcetera:feature/structure/amethyst_exposure_chamber/work/place
+
+execute if block ~-1 ~-3 ~-1 #etcetera:amethyst_exposure_chamber/amethyst if predicate etcetera:random/010 positioned ~-1 ~-3 ~-1 run return run function etcetera:feature/structure/amethyst_exposure_chamber/work/place
+execute if block ~0 ~-3 ~-1 #etcetera:amethyst_exposure_chamber/amethyst if predicate etcetera:random/010 positioned ~0 ~-3 ~-1 run return run function etcetera:feature/structure/amethyst_exposure_chamber/work/place
+execute if block ~1 ~-3 ~-1 #etcetera:amethyst_exposure_chamber/amethyst if predicate etcetera:random/010 positioned ~1 ~-3 ~-1 run return run function etcetera:feature/structure/amethyst_exposure_chamber/work/place
+execute if block ~-1 ~-3 ~0 #etcetera:amethyst_exposure_chamber/amethyst if predicate etcetera:random/010 positioned ~-1 ~-3 ~0 run return run function etcetera:feature/structure/amethyst_exposure_chamber/work/place
+execute if block ~0 ~-3 ~0 #etcetera:amethyst_exposure_chamber/amethyst if predicate etcetera:random/010 positioned ~0 ~-3 ~0 run return run function etcetera:feature/structure/amethyst_exposure_chamber/work/place
+execute if block ~1 ~-3 ~0 #etcetera:amethyst_exposure_chamber/amethyst if predicate etcetera:random/010 positioned ~1 ~-3 ~0 run return run function etcetera:feature/structure/amethyst_exposure_chamber/work/place
+execute if block ~-1 ~-3 ~1 #etcetera:amethyst_exposure_chamber/amethyst if predicate etcetera:random/010 positioned ~-1 ~-3 ~1 run return run function etcetera:feature/structure/amethyst_exposure_chamber/work/place
+execute if block ~0 ~-3 ~1 #etcetera:amethyst_exposure_chamber/amethyst if predicate etcetera:random/010 positioned ~0 ~-3 ~1 run return run function etcetera:feature/structure/amethyst_exposure_chamber/work/place
+execute if block ~1 ~-3 ~1 #etcetera:amethyst_exposure_chamber/amethyst if predicate etcetera:random/010 positioned ~1 ~-3 ~1 run return run function etcetera:feature/structure/amethyst_exposure_chamber/work/place
+
+execute if block ~-1 ~-4 ~-1 #etcetera:amethyst_exposure_chamber/amethyst if predicate etcetera:random/010 positioned ~-1 ~-4 ~-1 run return run function etcetera:feature/structure/amethyst_exposure_chamber/work/place
+execute if block ~0 ~-4 ~-1 #etcetera:amethyst_exposure_chamber/amethyst if predicate etcetera:random/010 positioned ~0 ~-4 ~-1 run return run function etcetera:feature/structure/amethyst_exposure_chamber/work/place
+execute if block ~1 ~-4 ~-1 #etcetera:amethyst_exposure_chamber/amethyst if predicate etcetera:random/010 positioned ~1 ~-4 ~-1 run return run function etcetera:feature/structure/amethyst_exposure_chamber/work/place
+execute if block ~-1 ~-4 ~0 #etcetera:amethyst_exposure_chamber/amethyst if predicate etcetera:random/010 positioned ~-1 ~-4 ~0 run return run function etcetera:feature/structure/amethyst_exposure_chamber/work/place
+execute if block ~0 ~-4 ~0 #etcetera:amethyst_exposure_chamber/amethyst if predicate etcetera:random/010 positioned ~0 ~-4 ~0 run return run function etcetera:feature/structure/amethyst_exposure_chamber/work/place
+execute if block ~1 ~-4 ~0 #etcetera:amethyst_exposure_chamber/amethyst if predicate etcetera:random/010 positioned ~1 ~-4 ~0 run return run function etcetera:feature/structure/amethyst_exposure_chamber/work/place
+execute if block ~-1 ~-4 ~1 #etcetera:amethyst_exposure_chamber/amethyst if predicate etcetera:random/010 positioned ~-1 ~-4 ~1 run return run function etcetera:feature/structure/amethyst_exposure_chamber/work/place
+execute if block ~0 ~-4 ~1 #etcetera:amethyst_exposure_chamber/amethyst if predicate etcetera:random/010 positioned ~0 ~-4 ~1 run return run function etcetera:feature/structure/amethyst_exposure_chamber/work/place
+execute if block ~1 ~-4 ~1 #etcetera:amethyst_exposure_chamber/amethyst if predicate etcetera:random/010 positioned ~1 ~-4 ~1 run return run function etcetera:feature/structure/amethyst_exposure_chamber/work/place

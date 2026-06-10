@@ -1,0 +1,20 @@
+{
+    "structures": [
+        {
+            "structure": "etcetera:gulf_monument",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 64,
+        "separation": 48,
+        "salt": 354,
+        
+        "frequency": 0.5,
+        "exclusion_zone": {
+            "chunk_count": 1,
+            "other_set": "etcetera:watercat_tree"
+        }
+    }
+}

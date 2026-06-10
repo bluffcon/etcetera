@@ -1,0 +1,35 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "poisonous_potato",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "!food":{},"!consumable":{},
+                                "item_model": "arbiterlib:etcetera/salt",
+                                "item_name": {"translate": "item.etcetera.salt","italic": false},
+                                "custom_data": {
+                                    "arbiterlib": {"namespace": "etcetera", "id": "salt"}
+                                },
+                                "max_stack_size": 64,
+                                "lore": [
+                                    {
+                                        "translate": "item.etcetera.salt.description",
+                                        "italic": false,
+                                        "color": "gray"
+                                    },
+                                    {"translate": "id.etcetera", "color": "blue", "italic": false}
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

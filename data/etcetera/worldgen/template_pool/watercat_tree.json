@@ -2,10 +2,20 @@
     "fallback": "minecraft:empty",
     "elements": [
         {
-            "weight": 1,
+            "weight": 10,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "location": "etcetera:watercat_tree1",
+                "processors": [
+                ],
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 11,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "etcetera:watercat_tree2",
                 "processors": [
                 ],
                 "projection": "rigid"

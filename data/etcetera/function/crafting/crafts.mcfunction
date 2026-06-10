@@ -46,3 +46,34 @@ unless items block ~ ~ ~ container.21 * \
 \
 run return run function arbiterlib:craft/workbench/craft/button/make {namespace:"etcetera",loottable:"map_compass",rarity:"common",item:"map",max_stack:1}
 
+
+execute \
+if items block ~ ~ ~ container.1 *[custom_data~{arbiterlib:{id:"salt"}}] \
+if items block ~ ~ ~ container.2 #fishes \
+if items block ~ ~ ~ container.3 *[custom_data~{arbiterlib:{id:"salt"}}] \
+\
+if items block ~ ~ ~ container.10 *[custom_data~{arbiterlib:{id:"watercat_apple"}}] \
+if items block ~ ~ ~ container.11 *[custom_data~{arbiterlib:{id:"watercat_apple"}}] \
+if items block ~ ~ ~ container.12 *[custom_data~{arbiterlib:{id:"watercat_apple"}}] \
+\
+unless items block ~ ~ ~ container.19 * \
+if items block ~ ~ ~ container.20 *[custom_data~{arbiterlib:{id:"turtle_bowl"}}] \
+unless items block ~ ~ ~ container.21 * \
+\
+run return run function etcetera:crafting/function/watercat_stock
+
+
+execute \
+if items block ~ ~ ~ container.1 *[custom_data~{arbiterlib:{id:"salt"}}] \
+if items block ~ ~ ~ container.2 *[custom_data~{arbiterlib:{id:"salt"}}] \
+if items block ~ ~ ~ container.3 *[custom_data~{arbiterlib:{id:"salt"}}] \
+\
+if items block ~ ~ ~ container.10 * \
+if items block ~ ~ ~ container.11 #etcetera:meat \
+if items block ~ ~ ~ container.12 *[custom_data~{arbiterlib:{id:"salt"}}] \
+\
+if items block ~ ~ ~ container.19 *[custom_data~{arbiterlib:{id:"salt"}}] \
+if items block ~ ~ ~ container.20 *[custom_data~{arbiterlib:{id:"salt"}}] \
+if items block ~ ~ ~ container.21 *[custom_data~{arbiterlib:{id:"salt"}}] \
+\
+run return run function etcetera:crafting/function/salt_food

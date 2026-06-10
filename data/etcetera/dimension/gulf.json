@@ -2,8 +2,33 @@
     "generator": {
         "type": "noise",
         "biome_source": {
-            "type": "fixed",
-            "biome":"etcetera:warm_gulf"
+            "type": "multi_noise",
+            "biomes": [
+                {
+                    "biome": "etcetera:cold_gulf",
+                    "parameters": {
+                        "continentalness": 0,
+                        "depth": 0,
+                        "erosion": 0,
+                        "humidity": 0,
+                        "offset": 0,
+                        "weirdness": 0,
+                        "temperature": [-2, 0]
+                    }
+                },
+                {
+                    "biome": "etcetera:warm_gulf",
+                    "parameters": {
+                        "continentalness": 0,
+                        "depth": 0,
+                        "erosion": 0,
+                        "humidity": 0,
+                        "offset": 0,
+                        "weirdness": 0,
+                        "temperature": [0, 2]
+                    }
+                }
+            ]
         },
         "settings": "etcetera:gulf"
     },

@@ -1,0 +1,37 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "poisonous_potato",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "!food":{},"!consumable":{},
+                                "item_model": "arbiterlib:etcetera/dimension/likeness_essence",
+                                "rarity":"uncommon",
+                                "item_name": {"translate": "item.etcetera.essence.likeness","italic": false},
+                                "custom_data": {
+                                    "arbiterlib": {"namespace": "etcetera", "etcetera": "likeness_essence", "id": "dimensional_essence"}
+                                },
+                                "max_stack_size": 64,
+                                "lore": [
+                                    {
+                                        "translate": "item.etcetera.essence.likeness.description",
+                                        "italic": false,
+                                        "color": "white"
+                                    },
+                                    {"translate": "id.etcetera", "color": "blue", "italic": false}
+                                ],
+                                "enchantment_glint_override": false
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

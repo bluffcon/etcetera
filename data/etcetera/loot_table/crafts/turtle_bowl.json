@@ -1,0 +1,35 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "poisonous_potato",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "!food":{},"!consumable":{},
+                                "item_model": "arbiterlib:etcetera/turtle_bowl",
+                                "item_name": {"translate": "item.etcetera.turtle_bowl","italic": false},
+                                "custom_data": {
+                                    "arbiterlib": {"namespace": "etcetera", "id": "turtle_bowl"}
+                                },
+                                "max_stack_size": 64,
+                                "lore": [
+                                    {
+                                        "translate": "item.etcetera.turtle_bowl.description",
+                                        "italic": false,
+                                        "color": "gray"
+                                    },
+                                    {"translate": "id.etcetera", "color": "blue", "italic": false}
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

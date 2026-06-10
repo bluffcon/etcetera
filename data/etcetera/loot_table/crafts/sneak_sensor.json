@@ -1,0 +1,53 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "furnace",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "container": [
+                                    {
+                                        "item": {"id": "knowledge_book","components": {"custom_data": {
+                                            "etcetera": "sneak_sensor"
+                                        }}},
+                                        "slot": 0
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "!food":{},"!consumable":{},
+                                "item_model": "arbiterlib:etcetera/block/sneak_sensor",
+                                "item_name": {"translate": "item.etcetera.sneak_sensor","italic": false},
+                                "custom_data": {
+                                    "arbiterlib": {"namespace": "etcetera", "id": "sneak_sensor"}
+                                },
+                                "max_stack_size": 64,
+                                "lore": [
+                                    {
+                                        "translate": "item.etcetera.sneak_sensor.description",
+                                        "italic": false,
+                                        "color": "gray"
+                                    },
+                                    {"translate": "id.etcetera", "color": "blue", "italic": false}
+                                ],
+                                "tooltip_display": {
+                                    "hidden_components": [
+                                        "container"
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
