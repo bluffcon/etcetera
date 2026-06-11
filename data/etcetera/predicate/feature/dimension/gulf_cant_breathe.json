@@ -8,7 +8,7 @@
                     "fluids": "minecraft:empty"
                 }
             },
-            "offsetY": 1
+            "offsetY": 1.8
         },
         {
             "condition": "location_check",

@@ -1,0 +1,53 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "barrel",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "container": [
+                                    {
+                                        "item": {"id": "knowledge_book","components": {"custom_data": {
+                                            "etcetera": "wormhole_transporter"
+                                        }}},
+                                        "slot": 0
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "!food":{},"!consumable":{},
+                                "item_model": "minecraft:cherry_door",
+                                "item_name": {"translate": "item.etcetera.wormhole_transporter","italic": false},
+                                "custom_data": {
+                                    "arbiterlib": {"namespace": "etcetera", "id": "wormhole_transporter"}
+                                },
+                                "max_stack_size": 64,
+                                "lore": [
+                                    {
+                                        "translate": "item.etcetera.wormhole_transporter.description",
+                                        "italic": false,
+                                        "color": "gray"
+                                    },
+                                    {"translate": "id.etcetera", "color": "blue", "italic": false}
+                                ],
+                                "tooltip_display": {
+                                    "hidden_components": [
+                                        "container"
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

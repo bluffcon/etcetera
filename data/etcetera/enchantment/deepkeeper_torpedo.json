@@ -1,0 +1,31 @@
+
+{
+    "anvil_cost": 100000,
+    "description": "default",
+    "max_cost": {
+        "base": 10000,
+        "per_level_above_first": 10000
+    },
+    "min_cost": {
+        "base": 10000,
+        "per_level_above_first": 10000
+    },
+    "max_level": 1,
+    "supported_items": [],
+    "slots": ["body"],
+    "weight": 1,
+    "exclusive_set": "#in_enchanting_table",
+    "effects": {
+       "tick": [
+            {
+                "effect": {"type": "apply_impulse", "coordinate_scale": [1,1,1], "direction": [0,0,1],"magnitude": 1.5}
+            },
+            {
+                "effect": {
+                    "type": "run_function",
+                    "function": "etcetera:feature/structure/gulf_monument/deepkeeper/torpedo_player_remove"
+                }
+            }
+        ]
+    }
+}

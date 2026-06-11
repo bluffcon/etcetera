@@ -1,6 +1,6 @@
 advancement revoke @s only etcetera:feature/block/place/communication_antenna/x
 execute if entity @n[type=marker,tag=etcetera.feature.communication_antenna,distance=..20] run return run function etcetera:feature/structure/communication_antenna/stuff/too_close_message
-
+tag @s add etcetera.feature.communication_antenna.placing
 execute anchored eyes positioned ^ ^ ^1 run summon marker ~ ~ ~ {Tags:["etcetera.feature.raycast"]}
 execute anchored eyes positioned ^ ^ ^2 run summon marker ~ ~ ~ {Tags:["etcetera.feature.raycast"]}
 execute anchored eyes positioned ^ ^ ^3 run summon marker ~ ~ ~ {Tags:["etcetera.feature.raycast"]}

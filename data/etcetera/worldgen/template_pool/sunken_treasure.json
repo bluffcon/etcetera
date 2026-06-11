@@ -1,0 +1,26 @@
+{
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "etcetera:sunken_treasure",
+                "processors": [
+                    {
+                        "processor_type": "block_rot",
+                        "integrity": 0.8,
+                        "rottable_blocks": [
+                            "cobblestone", "stone", "stone_stairs", "cobblestone_stairs", "cobblestone_wall", "andesite_stairs", "stone_brick_wall", "stone_bricks", "cracked_stone_bricks", "stone_brick_stairs"
+                        ]
+                    },
+                    {
+                        "processor_type": "block_age",
+                        "mossiness": 0.7
+                    }
+                ],
+                "projection": "rigid"
+            }
+        }
+    ]
+}

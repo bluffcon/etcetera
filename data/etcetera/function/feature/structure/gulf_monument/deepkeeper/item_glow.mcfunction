@@ -1,0 +1,1 @@
+execute at @a as @e[type=item,distance=..20] if items entity @s container.* poisonous_potato[custom_data~{arbiterlib:{etcetera:gulf_power}}] run data modify entity @s Glowing set value 1b

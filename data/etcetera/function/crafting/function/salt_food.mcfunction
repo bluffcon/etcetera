@@ -1,3 +1,4 @@
+
 execute if data block ~ ~ ~ Items[{Slot:16b}] run return fail
 execute if data block ~ ~ ~ Items[{Slot:11b}].components."minecraft:custom_data".etcetera.salted run return fail
 execute unless data block ~ ~ ~ Items[{Slot:11b,count:1}] run return fail

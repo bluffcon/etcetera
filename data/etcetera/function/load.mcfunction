@@ -1,5 +1,6 @@
 scoreboard objectives add etcetera.math dummy
 scoreboard objectives add etcetera.errors dummy
+scoreboard objectives add etcetera.stress dummy
 scoreboard objectives add etcetera.vegeterian dummy
 scoreboard objectives add etcetera.radio_countdown dummy
 scoreboard objectives add etcetera.interdimensional_railgun.boom dummy

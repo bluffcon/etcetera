@@ -1,4 +1,5 @@
 advancement revoke @s only etcetera:feature/block/place/furnace
+advancement revoke @s only etcetera:feature/block/place/barrel
 
 execute anchored eyes positioned ^ ^ ^1 run summon marker ~ ~ ~ {Tags:["etcetera.feature.raycast"]}
 execute anchored eyes positioned ^ ^ ^2 run summon marker ~ ~ ~ {Tags:["etcetera.feature.raycast"]}

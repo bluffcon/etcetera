@@ -6,6 +6,7 @@ execute at @s if dimension etcetera:builders_dimension run function etcetera:tic
 execute at @s if dimension etcetera:gulf run function etcetera:tick/dimension/gulf
 
 execute as @e[tag=etcetera.feature.multiblock,distance=..40,type=marker] at @s run function etcetera:tick/multiblocks
+execute as @e[tag=etcetera.feature.wormhole_transporter,distance=..40,type=block_display] at @s run function etcetera:feature/structure/wormhole_transporter/tick
 execute as @e[type=falling_block,tag=etcetera.feature.interdimensional_railgun.blocks,distance=..50] at @s run function etcetera:feature/item/interdimensional_railgun/block/tick
 
 

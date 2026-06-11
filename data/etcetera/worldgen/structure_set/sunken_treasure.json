@@ -1,0 +1,16 @@
+{
+    "structures": [
+        {
+            "structure": "etcetera:sunken_treasure",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 7,
+        "separation": 4,
+        "salt": 354,
+        
+        "frequency": 0.5
+    }
+}

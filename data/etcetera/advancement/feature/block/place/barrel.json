@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "x": {
+            "trigger": "placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "block_state_property",
+                        "block": "barrel",
+                        "properties": {}
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "etcetera:block/raycast"
+    }
+}
